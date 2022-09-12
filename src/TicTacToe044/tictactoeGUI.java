@@ -21,17 +21,13 @@ public class tictactoeGUI {
 	// gui stuff
 	private JFrame frame;
 
-	/**
-	 * Launch the application.
-	 */
+	//launch stuff
 	public static void main(String[] args) {
 		tictactoeGUI window = new tictactoeGUI();
 		window.frame.setVisible(true);
 	}
 
-	/**
-	 * Create the application.
-	 */
+	//application stuff
 	public tictactoeGUI() {
 		initialize();
 	}
